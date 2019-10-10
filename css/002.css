@@ -1,0 +1,124 @@
+:root{
+    --first-color: #465050;
+    --second-color: #4cc9ff;
+}
+body{
+
+}
+.header{
+    background-image: url(../img/15.png);
+    width: 1349px;
+    height: 500px;
+
+
+}
+.header menu{
+    background-color: var(--first-color);
+    opacity: 0.8;
+    width: 1349px;
+    height: 100px;
+}
+.header menu h1{
+    color: white;
+	float: left;
+    padding: 25px 0;
+    margin: 0 221px;
+}
+.header menu h1 span{
+    color: var(--second-color);
+}
+.header menu .menu{
+    margin: 0 221px;
+    padding: 40px 0;
+}
+.header menu .menu li{
+	float: right;
+    padding-left: 8px;
+}
+.header menu .menu li a {
+
+    color: white;
+    text-decoration: none;
+    border: 12px solid transparent;
+    font-weight: bolder;
+}
+.header menu .menu li a:hover {
+    border: 2px solid var(--second-color);
+    padding: 10px;
+    color: var(--second-color);
+    box-sizing: border-box;
+
+}
+.header .b-picture{
+
+    width: 1349px;
+    height: 400px;
+}
+.header .b-picture .idea{
+    padding: 150px 0;
+    margin: 0 200px;
+    text-align: center;
+
+}
+.header .b-picture .idea mark{
+
+    background-color: var(--first-color);
+    opacity: 0.8;
+    color: white;
+    font-size: 27px;
+}
+.services{
+    background-color: var(--second-color);
+    color: white;
+    width: 1349px;
+    height: 300px;
+
+}
+.services .subject-s{
+    margin: 0 221px;
+    padding-top: 40px;
+}
+.services .subject-s span{
+    border-bottom: 3px solid white;
+}
+.services .container{
+    margin: 0 201px;
+
+}
+.services div{
+    float: left;
+    width: 200px;
+    height: 200px;
+    display: inline;
+}
+.services div .fa{
+    padding-top: 10px;
+    font-size: 25px;
+
+
+}
+.services div h4{
+    padding: 5px 0;
+}
+.services div p{
+    display: inline;
+    word-wrap: break-word;
+}
+.portfolio{
+
+}
+.portfolio .port-f{
+
+}
+.portfolio .port-f .subject-p{
+
+}
+.portfolio .port-f .subject-p .menu-p{
+
+}
+.portfolio .pictures{
+
+}
+.portfolio .pictures img{
+
+}
