@@ -14,13 +14,13 @@ body{
 }
 .header menu{
     background-color: var(--first-color);
-    opacity: 0.8;
+    opacity: 0.7;
     width: 1349px;
     height: 100px;
 }
 .header menu h1{
     color: white;
-	float: left;
+    float: left;
     padding: 25px 0;
     margin: 0 221px;
 }
@@ -32,7 +32,7 @@ body{
     padding: 40px 0;
 }
 .header menu .menu li{
-	float: right;
+    float: right;
     padding-left: 8px;
 }
 .header menu .menu li a {
@@ -82,13 +82,15 @@ body{
     border-bottom: 3px solid white;
 }
 .services .container{
-    margin: 0 201px;
+    margin: 0 211px 0 221px;
+    width: 917px;
+    padding: 10px 0 40px;
 
 }
 .services div{
     float: left;
-    width: 200px;
-    height: 200px;
+    width: 228px;
+    padding-right: 5px;
     display: inline;
 }
 .services div .fa{
@@ -105,20 +107,169 @@ body{
     word-wrap: break-word;
 }
 .portfolio{
-
+    width: 1349px;
 }
 .portfolio .port-f{
-
+    width: 1349px;
+    height: 100px;
 }
 .portfolio .port-f .subject-p{
-
+    float: left;
+    margin-left: 221px;
+    padding: 30px 0;
 }
-.portfolio .port-f .subject-p .menu-p{
-
+.portfolio .port-f .subject-p span{
+    border-bottom: 3px solid black;
+}
+.portfolio .port-f .menu-p{
+    padding: 40px 0;
+    margin-right: 221px;
+}
+.portfolio .port-f .menu-p li{
+    border: 12px solid transparent;
+    float: right;
+}
+.portfolio .port-f .menu-p li a{
+    color: black;
+    text-decoration: none;
+    border: 12px solid transparent;
+    font-weight: bolder;
+}
+.portfolio .port-f .menu-p li a:hover{
+    border: 2px solid var(--second-color);
+    padding: 10px;
+    color: var(--second-color);
+    box-sizing: border-box;
 }
 .portfolio .pictures{
+    margin: 0 221px 0 200px ;
+    height: 500px;
+    width: 917px;
+    padding: 30px 0;
 
 }
 .portfolio .pictures img{
+    float: left;
+    width: 201px;
+    height: 201px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+.section{
+    background-color: var(--first-color);
+    width: 1349px;
+    height: 350px;
+
+}
+.section .descriptions{
+    float: left;
+    margin-left: 221px;
+    width: 400px;
+
+}
+.section .descriptions .subject-j{
+    color: white;
+    padding: 30px 0;
+}
+.section .descriptions .subject-j span{
+    border-bottom: 3px solid white;
+}
+.section .descriptions p{
+
+    color: white;
+}
+.section .descriptions a{
+    background-color: var(--first-color);
+    border: 2px solid black;
+    color: black;
+    padding: 5px 30px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.section .video{
+    float: right;
+    margin-right: 244px;
+    width: 350px;
+    height: 199px;
+    margin-top: 30px;
+    text-decoration: none;
+}
+.twitter{
+    background-color: var(--second-color);
+    width: 1349px;
+    height: 180px;
+    color: white;
+    padding: 0 221px;
+}
+.twitter .twitt{
+
+    width: 917px;
+    height: 93px;
+    padding: 30px 0 25px 0;
+}
+.twitter .twitt .subject-p{
+    float: left;
+
+}
+.twitter .twitt .subject-p span{
+    border-bottom: 3px solid white;
+}
+.twitter .twitt .fa{
+    float: right;
+    font-size: 30px;
+}
+.twitter .twitt p{
+
+}
+.who{
+    background-image: url(../img/29.png);
+    width: 1349px;
+    height: 380px;
+    color: white;
+    padding: 0 221px;
+
+}
+.who .subject-w{
+    padding: 30px 0 25px 0;
+}
+.who .subject-w span{
+    border-bottom: 3px solid white;
+}
+.who p{
+    float: left;
+    width: 440px;
+    display: inline;
+    word-wrap: break-word;
+    padding-right: 25px;
+    padding-bottom: 5px;
+}
+.who .icon{
+    float: left;
+
+}
+.who .icon .fa{
+    border: 1px solid white;
+    padding: 10px;
+    margin-right: 5px;
+}
+.testmonils{
+
+}
+.testmonils .test{
+
+}
+.testmonils .test .subject-t{
+
+}
+.testmonils .test .subject-t span{
+
+}
+.testmonils .test .fa{
+
+}
+.testmonils .test p{
+
+}
+.testmonils .test strong{
 
 }
