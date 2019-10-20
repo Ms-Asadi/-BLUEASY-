@@ -1,16 +1,21 @@
 :root{
     --first-color: #465050;
     --second-color: #4cc9ff;
-}
-body{
 
 }
+@font-face{
+    font-family: 'Calibri';
+    src: url('../font/calibri.ttf')  format('truetype'); /*I don't find another formats like woff , woff2 or etc*/
+}
+
+body{
+    font-family: 'Calibri',  'Segoe UI', 'Tahoma', sans-serif !important;
+}
+/*---------------Start Header---------------*/
 .header{
     background-image: url(../img/15.png);
     width: 1349px;
     height: 500px;
-
-
 }
 .header menu{
     background-color: var(--first-color);
@@ -36,7 +41,6 @@ body{
     padding-left: 8px;
 }
 .header menu .menu li a {
-
     color: white;
     text-decoration: none;
     border: 12px solid transparent;
@@ -67,6 +71,8 @@ body{
     color: white;
     font-size: 27px;
 }
+/*---------------End Header---------------*/
+/*---------------Start Services---------------*/
 .services{
     background-color: var(--second-color);
     color: white;
@@ -106,6 +112,8 @@ body{
     display: inline;
     word-wrap: break-word;
 }
+/*---------------End Services---------------*/
+/*---------------Start Portfolio---------------*/
 .portfolio{
     width: 1349px;
 }
@@ -116,13 +124,13 @@ body{
 .portfolio .port-f .subject-p{
     float: left;
     margin-left: 221px;
-    padding: 30px 0;
+    padding: 35px 0;
 }
 .portfolio .port-f .subject-p span{
     border-bottom: 3px solid black;
 }
 .portfolio .port-f .menu-p{
-    padding: 40px 0;
+    padding: 35px 0;
     margin-right: 221px;
 }
 .portfolio .port-f .menu-p li{
@@ -155,6 +163,17 @@ body{
     margin-left: 25px;
     margin-bottom: 25px;
 }
+.portfolio .pictures img:hover{
+    float: left;
+    width: 201px;
+    height: 201px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    content: url('../img/plus.png');
+
+}
+/*---------------End Portfolio---------------*/
+/*---------------Start JUST DEFAULT SECTION---------------*/
 .section{
     background-color: var(--first-color);
     width: 1349px;
@@ -198,6 +217,8 @@ body{
 .section .video:focus{
 	outline: none;
 }
+/*---------------End JUS T DEFAULT SECTION---------------*/
+/*---------------Start Twitter---------------*/
 .twitter{
     background-color: var(--second-color);
     width: 1349px;
@@ -225,6 +246,8 @@ body{
 .twitter .twitt p{
 
 }
+/*---------------End Twitter---------------*/
+/*---------------Start WHO IS JOHN DOE?---------------*/
 .who{
     background-image: url(../img/29.png);
     width: 1349px;
@@ -256,33 +279,36 @@ body{
     padding: 10px;
     margin-right: 5px;
 }
-.testmonils{
+/*--------------End WHO IS JOHN DOE?---------------*/
+/*--------------Start Testimonials---------------*/
+
+.testimonials{
     width: 1349px;
-    height: 180px;
+    height: 220px;
     padding: 0 221px;
 }
-.testmonils .test{
+.testimonials .test{
     width: 917px;
     height: 100px;
-    padding: 30px 0 25px 0;
+    padding: 30px 0 20px 0;
 }
-.testmonils .test .subject-t{
+.testimonials .test .subject-t{
     float: left;
-    
+
 }
-.testmonils .test .subject-t span{
+.testimonials .test .subject-t span{
     border-bottom: 3px solid black;
 }
-.testmonils .test .fa{
+.testimonials .test .fa{
     float: right;
     font-size: 30px;
 }
-.testmonils .test p{
-	width: 917px;
-}
-.testmonils .test strong{
+.testimonials small{
     color: var(--second-color);
+    font-weight: bolder;
 }
+/*--------------Start Testimonials---------------*/
+/*--------------Start Contact---------------*/
 .contact {
     background-image: url(../img/34.png);
     width: 1349px;
@@ -292,7 +318,7 @@ body{
     float: left;
 }
 .contact .subject-c{
-    padding-bottom: 25px;
+    padding: 30px 0 25px 0;
 }
 .contact .subject-c span{
     border-bottom: 3px solid white;
@@ -300,31 +326,25 @@ body{
 .contact h6{
 
 }
-.contact input[type=text]{
-	width: 350px;
-	height: 50px;
-	background-color: transparent;
-	border: 2px solide white;
-	padding-bottom: 30px;
-}
+.contact input[type=text],
 .contact input[type=email]{
 	width: 350px;
 	height: 50px;
 	background-color: transparent;
-	border: 2px solide white;
-	padding-bottom: 30px;
+	border: 2px solid white;
+	margin-bottom: 30px;
 }
 .contact textarea{
 	width: 900px;
-	height: 150px;
+	height: 180px;
 	background-color: transparent;
-	border: 2px solide white;
-	padding-bottom: 40px;
+	border: 2px solid white;
+	margin-bottom: 15px;
 	color: white;
 }
 .contact p{
 	float: right;
-	width: 350px;
+	width: 420px;
 	height: 50px;
 }
 .contact button[type=submit]{
@@ -334,20 +354,32 @@ body{
 	color:white;
 	border: none;
 }
-footer{
-	padding: 20px 221px;
+.contact input[type=text]:focus,
+.contact input[type=email]:focus,
+.contact textarea:focus{
+    outline: none;
+    color: white;
+    padding-left: 5px;
+}
+/*--------------End Contact---------------*/
+/*--------------Start Footer---------------*/
+.footer{
+	padding: 40px 211px;
 	width: 1349px;
-	height: 100px	
+	height: 100px;
 	background-color: var(--first-color);
 }
 .footer li{
 	float: left;
 }
 .footer li a{
-	color: white;
-	border-right: 2px solide gray;
+	color: grey;
+	border-right: 2px solid gray;
 	font-weight: bolder;
+    padding: 0 10px;
+    text-decoration: none;
 } 
 .footer li a.non-border{
 	border: none;	
 }
+/*--------------End Footer---------------*/
